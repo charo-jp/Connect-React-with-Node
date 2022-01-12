@@ -10,8 +10,8 @@ app.post("/post", (req, res) => {
 
 app.get("/api/todo", (req, res) => {
   const todo = [
-    {id: 1, firstName: "Yuya", lastName: "Hochi"},
-    {id: 2, firstName: "Charo", lastName: "Hochi"},
+    {id: 1, firstName: "Yuya", lastName: "Dog"},
+    {id: 2, firstName: "Charo", lastName: "WanBark"},
     {id: 3, firstName: "Wan", lastName: "Dog"}];
   res.json(todo);
 })
